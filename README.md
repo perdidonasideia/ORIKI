@@ -83,3 +83,14 @@ Na cultura Iorubá, orikis são palavras que carregam identidade, história e es
 Marcos Vinicius de Paulo — aprendiz de feiticeiro, dev em ascensão, e criador de histórias que funcionam.
 
 “Deixe que a obra fale por mim — como um Oriki.”
+
+
+
+
+
+
+
+
+🛡️ Este projeto está protegido sob a licença Creative Commons CC BY-NC-SA 4.0.  
+Uso comercial requer autorização.  
+[Mais informações sobre a licença.](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR)
