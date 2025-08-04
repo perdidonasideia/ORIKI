@@ -1,3 +1,9 @@
+🛡️ Este projeto está protegido sob a licença Creative Commons CC BY-NC-SA 4.0.  
+Uso comercial requer autorização.  
+[Mais informações sobre a licença.](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR)
+
+
+
 # 🧠 Oriki — Chatbot com alma, voz e contexto
 
 **Oriki** é um chatbot inteligente criado para pequenos negócios que querem se comunicar com mais presença, afeto e estilo. Inspirado na tradição Iorubá dos orikis — palavras vivas que mudam conforme quem fala e quem escuta — este bot adapta sua linguagem ao contexto, à intenção e ao coração de quem o usa.
@@ -91,6 +97,4 @@ Marcos Vinicius de Paulo — aprendiz de feiticeiro, dev em ascensão, e criador
 
 
 
-🛡️ Este projeto está protegido sob a licença Creative Commons CC BY-NC-SA 4.0.  
-Uso comercial requer autorização.  
-[Mais informações sobre a licença.](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR)
+
