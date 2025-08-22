@@ -44,3 +44,50 @@ export OPENAI_API_KEY='sua-chave-aqui'
 
 # Execute a aplicação
 python main.py
+
+
+
+
+🚀 Como Usar
+Defina os Orikis: Frases que capturam a essência do negócio
+
+Ex: "Aqui é amor em forma de pastel"
+
+Ex: "Só quem vem do morro entende essa ginga"
+
+Escolha o Tom: Selecione o estilo de comunicação desejado
+
+Interaja: Inicie a conversa através da interface web
+
+Personalize: Ajuste as respostas frequentes conforme necessário
+
+🎯 Público-Alvo
+Lanchonetes e brechós de bairro
+
+Estúdios de tatuagem e salões de beleza
+
+Artistas, poetas e criadores independentes
+
+Pequenos negócios com identidade cultural forte
+
+📋 Roadmap
+Integração com WhatsApp Business API
+
+Suporte a múltiplos idiomas (com foco em línguas africanas)
+
+Versão offline para dispositivos móveis
+
+Sistema de plugins para funcionalidades estendidas
+
+Dashboard analítico avançado
+
+🤝 Contribuição
+Este é um projeto aberto para fins educacionais e não-comerciais. Contribuições são bem-vindas dentro dos termos da licença Creative Commons BY-NC-SA 4.0.
+
+📜 Licença
+Este projeto está licenciado sob Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. Para uso comercial, entre em contato com o autor.
+
+👨🏾‍💻 Autor
+Marcos Vinicius de Paulo - Portfólio | LinkedIn
+
+"Deixe que a obra fale por mim — como um Oriki."
