@@ -1,93 +1,86 @@
-# 🤖 Oriki - Chatbot com Alma e Contexto
+# Oriki - Context-Aware Chatbot
 
-> Um chatbot inteligente que adapta sua linguagem ao contexto, intenção e identidade cultural do usuário, inspirado na tradição Iorubá dos orikis.
+A configurable chatbot interface that leverages the OpenAI GPT-4 API to adapt its communication style and responses based on predefined user identity and cultural context markers.
 
-[![Licença CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
-[![OpenAI GPT-4](https://img.shields.io/badge/OpenAI-GPT--4-green.svg)](https://openai.com)
+## Overview
 
-## 🌟 Visão Geral
+Oriki is a web application built with Gradio that allows small businesses to deploy an AI-powered chatbot capable of mimicking their unique brand voice, slang, and cultural nuances, moving beyond generic, sterile automated responses.
 
-Oriki é uma solução de atendimento automatizado para pequenos negócios que desejam manter sua autenticidade cultural e linguística nas interações digitais. Diferente de chatbots genéricos, o Oriki adapta sua fala ao contexto específico de cada negócio, preservando gingas, sotaques e identidades únicas.
+## Features
 
-## ✨ Funcionalidades
+- **Tone Customization:** Pre-set and customize the bot's communication style (e.g., poetic, direct, welcoming, informal).
+- **Identity Phrases ("Orikis"):** Store key phrases that define the bot's personality and core identity.
+- **Local Storage:** Save business profiles and their unique configurations locally using JSON or TinyDB.
+- **Basic Analytics:** Monitor usage and interaction patterns.
+- **Web Interface:** Simple, intuitive UI powered by Gradio.
 
-- **Personalização de Linguagem**: Adapta o tom de voz (poético, direto, acolhedor, periférico)
-- **Banco de Orikis**: Armazena frases identitárias que definem a personalidade do bot
-- **Interface Intuitiva**: Web app construído com Gradio para fácil interação
-- **Integração com GPT-4**: Utiliza modelos avançados de linguagem natural
-- **Armazenamento Local**: Perfis de negócios salvos em JSON ou TinyDB
-- **Analytics Básicos**: Monitoramento de uso e interações
+## Technology Stack
 
-## 🛠️ Tecnologias
+- **Backend:** Python 3.8+
+- **Web Framework:** Gradio
+- **Generative AI:** OpenAI GPT-4 API
+- **Storage:** JSON / TinyDB
+- **Deployment Target:** Hugging Face Spaces, Render, Replit
 
-- **Backend**: Python 3.8+
-- **Framework Web**: Gradio
-- **IA Generativa**: OpenAI GPT-4 API
-- **Armazenamento**: JSON local / TinyDB
-- **Deploy**: Hugging Face Spaces / Render / Replit (futuro)
+## Installation & Setup
 
-## 📦 Instalação
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/MarcosIkutie/oriki-chatbot.git
+    cd oriki-chatbot
+    ```
 
-```bash
-# Clone o repositório
-git clone https://github.com/MarcosIkutie/oriki-chatbot.git
+2.  **Create a virtual environment and install dependencies:**
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate  # Linux/MacOS
+    # .venv\Scripts\activate  # Windows
+    pip install -r requirements.txt
+    ```
 
-# Acesse o diretório
-cd oriki-chatbot
+3.  **Set your OpenAI API key:**
+    ```bash
+    export OPENAI_API_KEY='your-openai-api-key-here'
+    ```
 
-# Instale as dependências
-pip install -r requirements.txt
+4.  **Run the application:**
+    ```bash
+    python main.py
+    ```
 
-# Configure sua API key da OpenAI
-export OPENAI_API_KEY='sua-chave-aqui'
+## Usage
 
-# Execute a aplicação
-python main.py
+1.  **Define Identity Phrases:** Input phrases that capture the essence of the business (e.g., "Love served in a pastry," "Only those from the hills understand our vibe").
+2.  **Select a Tone:** Choose the desired communication style from the available options.
+3.  **Interact:** Start a conversation through the web interface.
+4.  **Customize:** Continuously adjust the bot's responses based on performance.
 
+## Target Audience
 
+- Neighborhood eateries and thrift stores.
+- Tattoo studios and beauty salons.
+- Independent artists, poets, and creators.
+- Small businesses with a strong cultural identity.
 
+## Roadmap
 
-🚀 Como Usar
-Defina os Orikis: Frases que capturam a essência do negócio
+- Integration with WhatsApp Business API.
+- Support for multiple languages (with a focus on African languages).
+- Offline mobile version.
+- Plugin system for extended functionality.
+- Advanced analytical dashboard.
 
-Ex: "Aqui é amor em forma de pastel"
+## License
 
-Ex: "Só quem vem do morro entende essa ginga"
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-Escolha o Tom: Selecione o estilo de comunicação desejado
+**You are free to:**
+- **Share:** Copy and redistribute the material in any medium or format.
+- **Adapt:** Remix, transform, and build upon the material.
 
-Interaja: Inicie a conversa através da interface web
+**Under the following terms:**
+- **Attribution:** You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- **NonCommercial:** You may not use the material for commercial purposes without explicit, formal authorization.
+- **ShareAlike:** If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
-Personalize: Ajuste as respostas frequentes conforme necessário
-
-🎯 Público-Alvo
-Lanchonetes e brechós de bairro
-
-Estúdios de tatuagem e salões de beleza
-
-Artistas, poetas e criadores independentes
-
-Pequenos negócios com identidade cultural forte
-
-📋 Roadmap
-Integração com WhatsApp Business API
-
-Suporte a múltiplos idiomas (com foco em línguas africanas)
-
-Versão offline para dispositivos móveis
-
-Sistema de plugins para funcionalidades estendidas
-
-Dashboard analítico avançado
-
-🤝 Contribuição
-Este é um projeto aberto para fins educacionais e não-comerciais. Contribuições são bem-vindas dentro dos termos da licença Creative Commons BY-NC-SA 4.0.
-
-📜 Licença
-Este projeto está licenciado sob Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. Para uso comercial, entre em contato com o autor.
-
-👨🏾‍💻 Autor
-Marcos Vinicius de Paulo - Portfólio | LinkedIn
-
-"Deixe que a obra fale por mim — como um Oriki."
+Any use, implementation, or monetization without formal authorization is subject to retroactive compensation.
